@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>stupid quiz game</title>
+</head>
+<body>
+  
+  <h1>This is a totally lame quiz game</h1>
+  <h2>Answer all the questions before the time runs out, or dont see if i care</h2>
+
+  <form id = "quiz" name = "quiz">
+    <p>Is the sky blue?</p>
+    <input type = "radio" id = "mChoice" name = "q1" value = "yea">yea<br>
+    <input type = "radio" id = "mChoice" name = "q1" value = "nah">nah<br>
+    <br>
+    <p>Is the grass green?</p>
+    <input type = "radio" id = "mChoice" name = "q2" value = "yea">yea<br>
+    <input type = "radio" id = "mChoice" name = "q2" value = "nah">nah<br>
+    <br>
+    <p>Is this test lame?</p>
+    <input type = "radio" id = "mChoice" name = "q3" value = "yea">yea<br>
+    <input type = "radio" id = "mChoice" name = "q3" value = "nah">nah<br>
+  
+    <input id = "button" type = "button" value = "Done" onclick="check();">
+  
+  
+  </form>
+  <p id = "number_correct"></p>
+<script src = "assets/javascript/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+</body>
+</html>
